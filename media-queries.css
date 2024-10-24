@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) and (max-width:1069px){
+    #menu, #desde, #assine, #nuvens, #search-icon, #all-search-icon, main > #p-1, #upper-header-hr, #lower-header-hr{
+        display: none;
+    }
+
+    *{
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    #header-2, #header-3{
+        display: flex;
+    }
+
+    #header-1 > h1{
+        padding-top: 4px;
+        text-align: center;
+        margin: 0;
+        font-size: 1.8em;
+        font-weight: bold;
+        padding-bottom: 16px;
+    }
+
+    #header-3 > p{
+        display: flex;
+        text-align: right;
+        position: absolute;
+        top: 30px;
+        right: 5px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .square{
+        display: flex;
+        position: absolute;
+        left: -330px;
+        top: -45px;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    #hidden-hr{
+        display: block;
+    }
+
+    main > img{
+        width: 96%;
+    }
+
+    figcaption{
+        font-size: 0.85em;
+        font-style: italic;
+    }
+
+    #texto-principal > p{
+        text-align: left;
+        margin-left: 9em;
+        margin-right: 6em;
+    
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.9em;
+    }
+
+    .sharesquare{
+        display: flex;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        transform: translate(-40px);
+    }
+    
+    .sharesquare > img{
+        margin: auto;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        justify-content:left;
+        display: flex;
+        align-content: baseline;
+        
+    }
+
+    footer{
+        width: 97vw;
+        height: 55%;
+        margin: auto;
+    }
+
+    #conjunto-1, #conjunto-2, #conjunto-3{
+        margin-top: -80px;
+    }
+
+    #conjunto-2, #conjunto-3{
+        transform: translate(100px);
+    }
+     
+    #conjunto-3{
+        transform: translate(270px);
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:1015px){
+    *{
+        background-color: red;
+    }
+
+
+}

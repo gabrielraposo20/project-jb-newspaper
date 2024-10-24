@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+*, main, footer{
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header-1, #header-2, #header-3{
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+}
+
+#header-1{
+    display: flex;
+}
+
+#header-1 > h1{
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 2.6em;
+    font-weight: bold;
+    transform: translate(200px);
+}
+
+#nuvens{
+    display: flex;
+    padding-top: 20px;
+    transform: translate(130px);
+}
+
+#nuvens > p{
+    align-self: inherit;
+}
+
+#nuvens > img{
+    width: 40px;
+    height: 30px;
+}
+
+#header-2{
+    display: flex;
+}
+
+.square{
+    border: 1px solid grey;
+    margin-right: 7px;
+}
+
+#buttons{
+    display: flex;
+    align-items: left;
+    transform: translate(-138px);
+}
+
+#search-icon, #menu-icon{
+    width: 17px;
+    height: 17px;
+    padding: 9px;
+}
+
+#desde{
+    font-weight: bold;
+}
+
+#assine{
+    text-align: right;
+    transform: translate(130px);
+    font-size: 0.85em;
+}
+
+#header-3 > p{
+    font-size: 0.6em;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#hidden-hr{
+    display: none;
+}
+
+#texto-principal > p{
+    text-align: left;
+    margin-left: 17em;
+    margin-right: 17em;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.9em;
+
+}
+
+iframe{
+    transform: translate(-95px, 20px);
+}
+
+#p-1{
+    padding-top: 40px;
+    font-weight: bold;
+    color: grey;
+}
+
+main > h1{
+    font-size: 2.2em;
+}
+
+#p-2{
+    padding-bottom: 10px;
+}
+
+#p-3{
+    font-size: 0.8em;
+}
+
+#p-4{
+    font-size: 0.8em;
+    padding-bottom: 8px;
+}
+
+#p-5, #p-6{
+    font-size: 0.6em;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+main > img{
+    width: 80%;
+    height: 80%;
+    padding-top: 35px;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+.sharesquare{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sharesquare > img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+#img-1{
+    transform: translate(26em);
+}
+
+#img-3{
+    transform: translate(-26em);
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    height: 60vh;
+    width: 98vw;
+    border: 6px solid black;
+}
+
+#logo-jornal{
+    width: 350px;
+    height: 40px;
+}
+
+#conjunto-1, #conjunto-2, #conjunto-3{
+    padding-top: 5.5em;
+}
+
+#conjunto-1 > p{
+    color: white;
+    text-align: start;
+    padding-left: 8px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+#footer-share{
+    display: flex;
+    padding-left: 10px;
+}
+
+.footer-sharesquare{
+    border: 1px solid white;
+    flex-basis: 0;
+    margin: 0px;
+    margin-right: 14px
+}
+
+.footer-sharesquare > img{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+}
+
+#conjunto-2, #conjunto-3{
+    transform: translate(-180px);
+}
+
+#conjunto-2 > ul > li, #conjunto-3 > ul > li{
+    text-align: left;
+    line-height: 2.2em;
+    list-style: none;
+}
+
+#conjunto-2 > ul > li > a, #conjunto-3 > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+#conjunto-2 > ul > li > a:hover, #conjunto-3 > ul > li > a:hover{
+    color: grey;
+}
+
+
+#conjunto-3{
+    transform: translate(-300px);
+}
+
+
+
+
+#menu{
+    display: flex;
+    position: sticky;
+    position:  -webkit-sticky;
+    top: 0;
+    margin: auto;
+}
+
+#upper-header-hr{
+    margin-bottom: 10px;
+}
+
+#menu-elements{
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+
+}
+
+#menu-elements li {
+    margin: auto;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+#menu-elements li:nth-of-type(1){
+    margin-left: 10em;
+}
+
+#menu-elements li:nth-of-type(13){
+    margin-right: 10em;
+}
+
+#menu-elements li:nth-of-type(7){
+    margin-right: 15px;
+}
+
+#menu-elements li:nth-of-type(8){
+    margin-left: 15px;
+}
+
+
+#menu-elements > li > a{
+    text-decoration: none !important;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: serif;
+    
+}
+
+#menu-elements li a:hover{
+    color: grey;
+}
+
+#menu-elements li a:focus, #menu-elements li a:active{
+    color: rgb(255, 32, 32);
+    text-decoration: none;
+}
+
+#lower-header-hr{
+    margin-top: 10px;
+}
+
